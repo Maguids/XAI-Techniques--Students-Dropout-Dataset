@@ -1,2 +1,72 @@
 # XAI-Techniques--Students-Dropout-Dataset
 This project applies Explainable AI techniques to a Student Dropout dataset, covering pre-, in- and post-modeling explanations, as well as an analysis of their quality. The project was developed for the "Adavnced Topics on Machine Learning" course. 1st Semester of the 1st Year of the Master's Degree in Artificial Intelligence.
+
+## Project Objective
+
+The objective of this project is to analyze and compare multiple XAI approaches, evaluating:
+- The type of insights provided by each technique;
+- The consistency of the explanations;
+- The differences between interpretable (glass-box) and complex (black-box) models.
+
+---
+
+## Project Structure
+
+### Task 1 – Pre-Modelling Explanations
+**Notebooks:**
+- `task_1_1_all_data_analysis.ipynb`
+- `task_1_2_data_analysis.ipynb`
+
+This task focuses on **exploratory data analysis** before model training.  
+The dataset is analyzed to understand:
+- Feature distributions;
+- Relationships between features and the target variable;
+- Potential data issues and relevant patterns.
+
+These insights support informed decisions in later modeling stages.
+
+---
+
+### Task 2 – In-Modelling Explanations
+**Notebook:**
+- `task_2_in_modelling.ipynb`
+
+In this task, an **interpretable (glass-box) model** is trained.  
+The analysis focuses on:
+- Feature importance;
+- Model parameters and learned relationships;
+- The interpretability offered directly by the model.
+
+---
+
+### Task 3 – Post-Modelling Explanations
+**Notebooks:**
+- `task_3_and_4_mlp.ipynb`
+- `task_3_and_4_xgboost.ipynb`
+
+This stage involves training **black-box models** (MLP and XGBoost) and applying post-hoc XAI techniques, including:
+- Simplification-based methods to approximate model behavior;
+- Feature-based explanation techniques;
+- Example-based explanations for individual predictions.
+
+The explanations obtained from different methods are compared and discussed.
+
+---
+
+### Task 4 – Quality of the Explanations
+
+This task evaluates the **quality of the generated explanations** using functionally-grounded metrics.  
+The results are analyzed to assess explanation reliability and to suggest possible interpretability improvements.
+
+---
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Scikit-learn
+- XGBoost
+- Explainable AI (XAI) techniques
+
+---
+
+This repository contains all the code and analyses developed throughout the project.
