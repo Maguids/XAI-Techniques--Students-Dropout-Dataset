@@ -1,14 +1,20 @@
 # XAI-Techniques--Students-Dropout-Dataset
 This project applies Explainable AI techniques to a Student Dropout dataset, covering pre-, in- and post-modeling explanations, as well as an analysis of their quality. The project was developed for the "Adavnced Topics on Machine Learning" course. 1st Semester of the 1st Year of the Master's Degree in Artificial Intelligence.
 
+---
+
+## Programming Language
+
+<div style = "display: inline_block"><br/>
+  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</div><br/>
+
 ## Project Objective
 
 The objective of this project is to analyze and compare multiple XAI approaches, evaluating:
 - The type of insights provided by each technique;
 - The consistency of the explanations;
 - The differences between interpretable (glass-box) and complex (black-box) models.
-
----
 
 ## Project Structure
 
@@ -25,8 +31,6 @@ The dataset is analyzed to understand:
 
 These insights support informed decisions in later modeling stages.
 
----
-
 ### Task 2 – In-Modelling Explanations
 **Notebook:**
 - `task_2_in_modelling.ipynb`
@@ -36,8 +40,6 @@ The analysis focuses on:
 - Feature importance;
 - Model parameters and learned relationships;
 - The interpretability offered directly by the model.
-
----
 
 ### Task 3 – Post-Modelling Explanations
 **Notebooks:**
@@ -51,14 +53,10 @@ This stage involves training **black-box models** (MLP and XGBoost) and applying
 
 The explanations obtained from different methods are compared and discussed.
 
----
-
 ### Task 4 – Quality of the Explanations
 
 This task evaluates the **quality of the generated explanations** using functionally-grounded metrics.  
 The results are analyzed to assess explanation reliability and to suggest possible interpretability improvements.
-
----
 
 ## Technologies Used
 - Python
@@ -67,6 +65,24 @@ The results are analyzed to assess explanation reliability and to suggest possib
 - XGBoost
 - Explainable AI (XAI) techniques
 
----
-
 This repository contains all the code and analyses developed throughout the project.
+
+
+## Link to the course: 
+
+This course is part of the **<u>first semester</u>** of the **<u>first year</u>** of the **<u>Master's Degree in Artificial Intelligence</u>** at **<u>FEUP</u>** and **<u>FCUP</u>** in the academic year 2025/2026. You can find more information about this course at the following link:
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+  <a href="https://sigarra.up.pt/fcup/en/UCURR_GERAL.FICHA_UC_VIEW?pv_ocorrencia_id=560066">
+    <img alt="Link to Course" src="https://img.shields.io/badge/Link_to_Course-0077B5?style=for-the-badge&logo=logoColor=white" />
+  </a>
+
+  <div style="display: flex; gap: 10px; justify-content: center;">
+    <a href="https://sigarra.up.pt/feup/pt/web_page.inicial">
+      <img alt="FEUP" src="https://img.shields.io/badge/FEUP-808080?style=for-the-badge&logo=logoColor=grey" />
+    </a>
+    <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">
+      <img alt="FCUP" src="https://img.shields.io/badge/FCUP-808080?style=for-the-badge&logo=logoColor=grey" />
+    </a>
+  </div>
+</div>
