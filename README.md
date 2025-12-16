@@ -58,12 +58,27 @@ The explanations obtained from different methods are compared and discussed.
 This task evaluates the **quality of the generated explanations** using functionally-grounded metrics.  
 The results are analyzed to assess explanation reliability and to suggest possible interpretability improvements.
 
-## Technologies Used
-- Python
-- Jupyter Notebook
-- Scikit-learn
-- XGBoost
-- Explainable AI (XAI) techniques
+## About the repository:
+
+```
+TAACproject
+├── datasets
+│   ├── data_all_pca_21_components
+│   ├── data_all_preprocessed.csv
+│   ├── data_all.csv
+│   ├── data_preprocessed.csv
+│   ├── data.csv
+├── pickle_jar
+│   ├── mlp_model.pkl       # saved MLP model
+├── ProjectStatment       # The Project Statment
+├── Report_TAAC__DS2_G3.pdf       # The report of the project
+├── task_1_1_all_data_analysis.ipynb       # Task 1 with all data ("Enrolled", "Graduated", "Dropout")
+├── task_1_2_data_analysis.ipynb       # Task 1 without "Enrolled"
+├── task_2_in_modelling.ipynb       # Task 2 with a Decision Tree as the glass-box model
+├── task_3_and_4_mlp.ipynb       # Task 3 and 4 with MLP
+├── task_3_and_4_xgboost.ipynb       # Task 3 and 4 with XGBoost
+
+```
 
 This repository contains all the code and analyses developed throughout the project.
 
